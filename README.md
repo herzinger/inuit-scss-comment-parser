@@ -4,6 +4,13 @@ scss-comment-parser [![Build Status](https://travis-ci.org/SassDoc/scss-comment-
 Parse `///` comments and extracts context from SCSS.
 
 
+## Note
+
+This is a fork of the original SassDoc' SCSS parser. The only
+modification I made was to allow block comments, to try and use it with
+the comment style of [inuitcss](http://github.com/inuitcss/inuitcss).
+
+
 ## Install
 
 ```shell
@@ -38,6 +45,9 @@ console.log(comments);
 
 ## Changelog
 
+#### `0.8.2` -> this fork only
+  * Allow CSS block comments.
+
 #### `0.8.1`
   * Fix CSS line numbers, expected by SassDoc.
 
@@ -53,11 +63,11 @@ console.log(comments);
 
 #### `0.5.1-rc1`
   * Update to `cdocparser@0.5.0`
-  * Add support for configuration passed to the extractor.  
+  * Add support for configuration passed to the extractor.
 
 #### `0.5.0`
   * Update to `cdocparser@0.4.0`
-  * Add support for configuration passed to the extractor.  
+  * Add support for configuration passed to the extractor.
 
 #### `0.4.0`
   * Update to `cdocparser@0.3.0` supporting `///` comments
