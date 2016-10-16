@@ -188,7 +188,7 @@ var filterAndGroup = function (lines) {
   return nLines;
 };
 
-var extractor = new CDocParser.CommentExtractor(scssContextParser, { blockComment : false});
+var extractor = new CDocParser.CommentExtractor(scssContextParser);
 
 var Parser = function (annotations, config) {
   this.commentParser = new CDocParser.CommentParser(annotations, config);
