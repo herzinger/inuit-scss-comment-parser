@@ -1,10 +1,10 @@
 {
   "name": "inuit-scss-comment-parser",
   "version": "0.8.2",
-  "description": "Parse SCSS comments to build documentation",
+  "description": "Parse SCSS comments to build documentation, allowing block comments",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SassDoc/ScssCommentParser"
+    "url": "https://github.com/herzinger/inuit-scss-comment-parser"
   },
   "author": "Fabrice Weinberg <Fabrice@weinberg.me>",
   "contributors": [
