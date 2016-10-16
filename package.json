@@ -1,5 +1,5 @@
 {
-  "name": "scss-comment-parser",
+  "name": "inuit-scss-comment-parser",
   "version": "0.8.1",
   "description": "Parse SCSS comments to build documentation",
   "repository": {
@@ -7,6 +7,9 @@
     "url": "https://github.com/SassDoc/ScssCommentParser"
   },
   "author": "Fabrice Weinberg <Fabrice@weinberg.me>",
+  "contributors": [
+    "Henrique Erzinger <klaustrophobia@gmail.com>"
+  ],
   "license": "MIT",
   "main": "index.js",
   "files": [
