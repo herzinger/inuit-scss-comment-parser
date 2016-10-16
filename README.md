@@ -6,9 +6,14 @@ Parse `///` comments and extracts context from SCSS.
 
 ## Note
 
-This is a fork of the original SassDoc' SCSS parser. The only
+This is a fork of the original [SassDoc](http://sassdoc.com/)'s
+[SCSS parser](https://github.com/SassDoc/scss-comment-parser). The only
 modification I made was to allow block comments, to try and use it with
 the comment style of [inuitcss](http://github.com/inuitcss/inuitcss).
+
+Thanks for the original authors for the great tool and
+[@pascalduez](https://github.com/pascalduez) for pointing me in this
+direction [here](https://github.com/SassDoc/sassdoc/issues/467).
 
 
 ## Install
